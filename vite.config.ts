@@ -8,9 +8,9 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     tsconfigPaths(),
-    react(),
     tanstackStart({
       server: { entry: "server" },
     }),
+    react(),
   ],
 });
