@@ -4,8 +4,8 @@ export function Footer() {
       <div className="mx-auto max-w-6xl">
         <div className="flex flex-col items-center gap-4 text-center">
           <div className="flex items-center gap-2.5">
-            <span className="grid h-10 w-10 shrink-0 place-items-center overflow-hidden rounded-xl bg-foreground">
-              <img src="/presentiq-logo.jpeg" alt="PresentIQ logo" className="h-full w-full object-cover" />
+            <span className="grid h-10 w-auto shrink-0 place-items-center overflow-hidden rounded-lg">
+              <img src="/presentiq-logo.jpeg" alt="PresentIQ logo" className="h-full w-auto object-contain" />
             </span>
             <span className="text-xl font-bold tracking-tight text-foreground">PresentIQ</span>
           </div>

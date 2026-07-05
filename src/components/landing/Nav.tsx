@@ -33,8 +33,8 @@ export function Nav() {
         }`}
       >
         <a href="#top" className="flex items-center gap-2.5">
-          <span className="grid h-9 w-9 shrink-0 place-items-center overflow-hidden rounded-xl bg-foreground">
-            <img src="/presentiq-logo.jpeg" alt="PresentIQ logo" className="h-full w-full object-cover" />
+          <span className="grid h-9 w-auto shrink-0 place-items-center overflow-hidden rounded-lg">
+            <img src="/presentiq-logo.jpeg" alt="PresentIQ logo" className="h-full w-auto object-contain" />
           </span>
           <span className="text-lg font-bold tracking-tight text-foreground">PresentIQ</span>
         </a>
