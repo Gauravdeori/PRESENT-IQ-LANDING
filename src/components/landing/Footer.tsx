@@ -1,5 +1,3 @@
-import logo from "@/assets/presentiq-logo.jpeg.asset.json";
-
 export function Footer() {
   return (
     <footer className="border-t border-border bg-card px-4 py-14">
@@ -7,7 +5,7 @@ export function Footer() {
         <div className="flex flex-col items-center gap-4 text-center">
           <div className="flex items-center gap-2.5">
             <span className="grid h-10 w-10 shrink-0 place-items-center overflow-hidden rounded-xl bg-foreground">
-              <img src={logo.url} alt="PresentIQ logo" className="h-full w-full object-cover" />
+              <img src="/presentiq-logo.jpeg" alt="PresentIQ logo" className="h-full w-full object-cover" />
             </span>
             <span className="text-xl font-bold tracking-tight text-foreground">PresentIQ</span>
           </div>
