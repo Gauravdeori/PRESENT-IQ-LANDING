@@ -32,10 +32,8 @@ export function Nav() {
           scrolled ? "glass shadow-[var(--shadow-soft)]" : "bg-transparent"
         }`}
       >
-        <a href="#top" className="flex items-center gap-2.5">
-          <span className="grid h-9 w-auto shrink-0 place-items-center overflow-hidden rounded-lg">
-            <img src="/presentiq-logo.jpeg" alt="PresentIQ logo" className="h-full w-auto object-contain" />
-          </span>
+        <a href="#top" className="flex items-center gap-2.5 shrink-0">
+          <img src="/presentiq-logo.jpeg" alt="PresentIQ logo" className="h-9 w-9 shrink-0 rounded-xl object-cover" />
           <span className="text-lg font-bold tracking-tight text-foreground">PresentIQ</span>
         </a>
         <div className="hidden items-center gap-1 md:flex">
@@ -43,7 +41,7 @@ export function Nav() {
             <a
               key={l.href}
               href={l.href}
-              className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              className="whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
               {l.label}
             </a>
